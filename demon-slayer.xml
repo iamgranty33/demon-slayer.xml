@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Demon Slayer</name>
+		<description>The Demon Slayer from the Anime in DnD.</description>
+		<author url="Anime and DnD">Blaine Simple</author>
+		<update version="0.0.1">
+			<file name="demon-slayer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Demon Slayer" type="Archetype" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_DEMONSLAYER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>Fighters who choose this martial archetype at 3rd level have trained tirelessly to attain great strength, speed, and senses through hellish training. Demon slayers are masters at fighting on the edge of death, bolstering their resolve in any battle regardless of challenge. This show of bravery often intimidates foes far stronger than themselves. </p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SLAYER'S_STAMINA" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_OPENING_THREAD" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_QUICK_SENSE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_EVADE_AND_COUNTER" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SUPERSONIC_AGILITY" />
+  			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ENDLESS_BREATH" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SLAYER'S_STRENGTH" />
+		</description>
+		<sheet>
+			<description>The Demon Slayer has a focus on the use of beast form, and stronger forms of it instead of spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" name="ID_HOMEBREW_ARCHETYPE_FEATURE_SLAYER'S_STAMINA" level="2" />
+			<grant type="Archetype Feature" name="ID_HOMEBREW_ARCHETYPE_FEATURE_OPENING_THREAD" level="2" />
+			<grant type="Archetype Feature" name="ID_HOMEBREW_ARCHETYPE_FEATURE_QUICK_SENSE" level="6" />
+			<grant type="Archetype Feature" name="ID_HOMEBREW_ARCHETYPE_FEATURE_EVADE_AND_COUNTER" level="10" />
+			<grant type="Archetype Feature" name="ID_HOMEBREW_ARCHETYPE_FEATURE_SUPERSONIC_AGILITY" level="14" />
+		</rules>
+	</element>
+
+	<element name="Slayer's Stamina" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SLAYER'S_STAMINA">
+		<description>
+			<p>Demon Slayers are high endurance fighters that carefully regulate their stamina usage during battle. When you choose this archetype at 3rd level, you possess 3 stamina points and gain another at 7th and 15th level. These points can be used to activate class features described below. Stamina points are regained after a short or long rest. </p>
+		</description>
+		<sheet>
+			<description>Demon Slayers are high endurance fighters that carefully regulate their stamina usage during battle. When you choose this archetype at 3rd level, you possess 3 stamina points and gain another at 7th and 15th level. These points can be used to activate class features described below. Stamina points are regained after a short or long rest.</description>
+		</sheet>
+	</element>
+	<element name="Opening Thread" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_OPENING_THREAD">
+		<description>
+			<p>You're able to resonate with a particular type of element. Choose fire, cold, acid, lightning, or thunder.</p>
+			<p class="indent">Starting at 4th level, you can transform into a beast with a challenge rating as high as your druid level divided by 2, rounded up. </p>
+		</description>
+		<sheet>
+			<description>Once per round you can bathe your weapon or a piece of ammunition in this element, adding an extra 2d8 damage of the chosen element to your next successful weapon attack. You can change your chosen element whenever you reach a level in this class that grants the Ability Score Improvement feature. This feature costs 1 stamina point to use.</description>
+		</sheet>
+	</element>
+	<element name="Quick Sense" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_QUICK_SENSE">
+		<description>
+			<p>You've learned to perceive your surroundings at an alarmingly fast and accurate rate. If you were surprised at the start of combat, you instead aren't. This feature costs 2 stamina to use.</p>
+			<p class="indent">You've learned to perceive your surroundings at an alarmingly fast and accurate rate. If you were surprised at the start of combat, you instead aren't. This feature costs 2 stamina to use.</p>
+		</description>
+		<sheet>
+			<description>You've learned to perceive your surroundings at an alarmingly fast and accurate rate. If you were surprised at the start of combat, you instead aren't. This feature costs 2 stamina to use.</description>
+		</sheet>
+	</element>
+	<element name="Evade and Counter" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_EVADE_AND_COUNTER">
+		<description>
+			<p>Starting at 7th level, as a reaction to being targeted by an attack, you can cause the roll to suffer disadvantage. If it misses, than you can immediately make a weapon attack against the target, granted you can hit them. This feature costs 1 stamina point to use.</p>
+		</description>
+		<sheet>
+			<description>Starting at 7th level, as a reaction to being targeted by an attack, you can cause the roll to suffer disadvantage. If it misses, than you can immediately make a weapon attack against the target, granted you can hit them. This feature costs 1 stamina point to use.</description>
+		</sheet>
+	</element>
+	<element name="Supersonic Agility" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SUPERSONIC_AGILITY">
+		<description>
+			<p>Starting at 10th level, you can move faster than the blink of an eye. Once per round, before making an attack, you can choose to move up to 30 feet in any set of directions. This movement does not provoke opportunity attacks and is considered to be instantaneous. This feature costs 1 stamina point to use.</p>
+		</description>
+		<sheet>
+			<description>Starting at 10th level, you can move faster than the blink of an eye. Once per round, before making an attack, you can choose to move up to 30 feet in any set of directions. This movement does not provoke opportunity attacks and is considered to be instantaneous. This feature costs 1 stamina point to use.</description>
+		</sheet>
+	</element>
+    <element name="Endless Breath" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ENDLESS_BREATH">
+		<description>
+			<p>Starting at 15th level, you can harness the power of your chosen element even when you've run out of energy. After you've expended your last stamina point, every weapon attack you hit deals an extra 1 damage of your chosen element. This effect lasts until you regain any stamina points.</p>
+		</description>
+		<sheet>
+			<description>Starting at 15th level, you can harness the power of your chosen element even when you've run out of energy. After you've expended your last stamina point, every weapon attack you hit deals an extra 1 damage of your chosen element. This effect lasts until you regain any stamina points.</description>
+		</sheet>
+	</element>
+    <element name="Slayer's Strength" type="Archetype Feature" source="Anime in DnD" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SLAYER'S_STRENGTH">
+		<description>
+			<p>Starting at 18th level, you've mastered your elemental technique. After taking an instance of damage, you can suffer 1 level of exhaustion to gain immunity to the damage. If the damage is the same element as your Opening Thread feature, you also regain 1 stamina point. All exhaustion levels gained in this way can be removed after a long rest.</p>
+		</description>
+		<sheet>
+			<description>Starting at 18th level, you've mastered your elemental technique. After taking an instance of damage, you can suffer 1 level of exhaustion to gain immunity to the damage. If the damage is the same element as your Opening Thread feature, you also regain 1 stamina point. All exhaustion levels gained in this way can be removed after a long rest.</description>
+		</sheet>
+	</element>
+</elements>
